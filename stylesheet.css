@@ -1,0 +1,88 @@
+body {
+    color: black;
+    font-family: 'Almarai', sans-serif;
+}
+
+.divMenuSuperior{
+    text-align: center;
+    align-items: center;
+    /* justify-content: center; */
+    /* border: 1px solid black; */
+    display: flex;
+}
+
+.imgLogo{
+    position: relative;
+    left: 15%;
+    margin-right: 1%;
+}
+
+.tituloMenuSuperior{
+    font-size: 25px;
+    font-weight: 700;
+    position: relative;
+    left: 15%;
+}
+
+.opcaoMenu{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;   
+    position: relative;
+    left: 50%;
+    height: 50px;
+    margin-right: 4%;
+    margin-bottom: 0.5%;
+    background-image: linear-gradient(black, black);
+    background-repeat: no-repeat;
+    background-size: 0px 3px;
+    background-position: left bottom;
+    transition: all 0.5s;
+}
+
+.opcaoMenu:hover {
+    margin-bottom: 1%;
+    text-decoration: underline;
+    background-size: 100% 3px;
+}
+
+.homePage {
+    width: auto;
+    height: auto;
+    /* border: 1px solid black; */
+}
+
+.imgHomePage {
+    width: 45%;
+    position: relative;
+    bottom: 0px;
+    left: 15%;
+    /* float: left; */
+    /* border: 1px solid black; */
+    transition: all 0.5s;
+}
+
+.imgHomePage:hover {
+    bottom: 20px;
+}
+
+.tituloHomePage{
+    text-align: center;
+    position: relative;
+    top: 250px;
+    right: 6.7%;
+    font-size: 60px;
+    float: right;
+    border-bottom: 0px solid black;
+    background-image: linear-gradient(black, black);
+    background-repeat: no-repeat;
+    background-size: 0px 3px;
+    background-position: left bottom;
+    transition: all 0.5s;
+}
+
+.tituloHomePage:hover {
+    top: 235px;
+    border-bottom: 5px solid black;
+    background-size: 100% 3px;
+}
