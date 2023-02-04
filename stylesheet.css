@@ -1,13 +1,13 @@
 body {
     color: black;
-
+    font-family: 'Almarai', sans-serif;
 }
 
 .divMenuSuperior{
     text-align: center;
     align-items: center;
     /* justify-content: center; */
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
 }
 
