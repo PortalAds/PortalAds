@@ -4,6 +4,13 @@ body {
 }
 
 .divMenuSuperior{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    background-color: white;
     text-align: center;
     align-items: center;
     /* justify-content: center; */
@@ -29,7 +36,7 @@ body {
     text-decoration: none;
     color: black;   
     position: relative;
-    left: 50%;
+    left: 41%;
     height: 50px;
     margin-right: 4%;
     margin-bottom: 0.5%;
@@ -43,5 +50,46 @@ body {
 .opcaoMenu:hover {
     margin-bottom: 1%;
     text-decoration: underline;
+    background-size: 100% 3px;
+}
+
+.homePage {
+    width: auto;
+    height: auto;
+    /* border: 1px solid black; */
+}
+
+.imgHomePage {
+    width: 45%;
+    position: relative;
+    bottom: 0px;
+    left: 15%;
+    /* float: left; */
+    /* border: 1px solid black; */
+    transition: all 0.5s;
+}
+
+.imgHomePage:hover {
+    bottom: 20px;
+}
+
+.tituloHomePage{
+    text-align: center;
+    position: relative;
+    top: 250px;
+    right: 6.7%;
+    font-size: 60px;
+    float: right;
+    border-bottom: 0px solid black;
+    background-image: linear-gradient(black, black);
+    background-repeat: no-repeat;
+    background-size: 0px 3px;
+    background-position: left bottom;
+    transition: all 0.5s;
+}
+
+.tituloHomePage:hover {
+    top: 235px;
+    border-bottom: 5px solid black;
     background-size: 100% 3px;
 }
