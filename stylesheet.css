@@ -22,7 +22,7 @@ body {
 
 .imgLogo{
     position: relative;
-    left: 15%;
+    left: 10%;
     margin-right: 1%;
 }
 
@@ -30,7 +30,7 @@ body {
     font-size: max(26px, 1.2vw);
     font-weight: 700;
     position: relative;
-    left: 15%;
+    left: 10%;
 }
 
 .opcaoMenu{
@@ -38,7 +38,7 @@ body {
     text-decoration: none;
     color: black;   
     position: relative;
-    left: 31%;
+    left: 28%;
     height: 3.3vw;
     margin-right: 4%;
     margin-bottom: 0.5%;
@@ -67,7 +67,7 @@ body {
     width: 50%;
     position: relative;
     bottom: 0px;
-    left: 10%;
+    left: 8%;
     /* float: left; */
     /* border: 1px solid black; */
     transition: all 0.5s;
@@ -81,7 +81,7 @@ body {
     text-align: center;
     position: relative;
     top: 250px;
-    right: 6.7%;
+    right: 7%;
     font-size: max(30px, 3.5vw);
     float: right;
     border-bottom: 0px solid black;
@@ -99,8 +99,8 @@ body {
 }
 
 .historiaPage {
-    width: 101.1%;
-    height: 60vmax;
+    width: 100vw;
+    height: 60vw;
     margin: auto;
     margin-left: 0%;
     margin-top: 11.5%;
@@ -117,7 +117,7 @@ body {
     font-size: max(30px, 1.5vw);
     font-weight: 700;
     position: relative;
-    left: 15%;
+    left: 10%;
     float: left;
 }
 
@@ -125,7 +125,7 @@ body {
     width: 35%;
     position: relative;
     top: 17%;
-    left: 7%;
+    left: 2%;
     margin: 0%;
     float: left;
     /* border: 1px solid white; */
@@ -142,7 +142,7 @@ body {
 .videoHistoriaPage{
     position: relative;
     top: 20.4%;
-    right: 7%;
+    right: 8%;
     width: 35%;
     float: right;
     /* border: 1px solid white; */
@@ -152,7 +152,12 @@ body {
     font-size: max(25px, 1.5vw);
     position: relative;
     top: 75%;
-    right: 28%;
+    right: 33%;
     float: left;
     /* border: 1px solid white; */
+}
+
+.linksFormasAcesso{
+    text-decoration: none;
+    color: white;
 }
