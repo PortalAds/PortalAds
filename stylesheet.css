@@ -26,14 +26,14 @@ body {
 }
 
 .tituloMenuSuperior{
-    font-size: max(26px, 1.3vw);
+    font-size: max(26px, 1.2vw);
     font-weight: 700;
     position: relative;
     left: 15%;
 }
 
 .opcaoMenu{
-    font-size: max(20px, 1.3vw);
+    font-size: max(20px, 1.2vw);
     text-decoration: none;
     color: black;   
     position: relative;
