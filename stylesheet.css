@@ -158,6 +158,13 @@ body {
 }
 
 .linksFormasAcesso{
+    position: relative;
+    top:0px;
     text-decoration: none;
     color: white;
+    transition: all 0.5s;
+}
+
+.linksFormasAcesso:hover{
+    top: -5px;
 }
