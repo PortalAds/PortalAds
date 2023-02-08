@@ -169,6 +169,52 @@ body {
     top: -5px;
 }
 
+.instituicaoPage{
+    width: 85%;
+    height: auto;
+    /* border: 1px solid black; */
+    margin: auto;
+}
+
+.tituloSobreInstituicao{
+    font-size: max(30px, 1.5vw);
+    font-weight: 700;
+    position: relative;
+    left: 2%;
+}
+
+.subTituloSobreInstituicao{
+    font-size: max(25px, 1.5vw);
+    font-weight: 700;
+    position: relative;
+    left: 2%;
+}
+
+.imgCampusCajazeiras{
+    width: 50%;
+    float: right;
+}
+
+.divParagrafoInstituição{
+    width: 45%;
+    font-size: max(20px, 1.2vw);
+    justify-content: center;
+    text-align: justify;
+    position: relative;
+    left: 2%;
+}
+
+.videoInstituicaoPage{
+    width: 50%;
+    float: right;
+}
+
+.videoInstituicao{
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+}
+
 @media (max-width: 1358px) {
 
     .divParagrafoHistoriaPage{
