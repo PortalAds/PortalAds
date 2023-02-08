@@ -168,3 +168,18 @@ body {
 .linksFormasAcesso:hover{
     top: -5px;
 }
+
+@media (max-width: 1358px) {
+
+    .divParagrafoHistoriaPage{
+        top: 12%;
+    }
+
+    .videoHistoriaPage{
+        top: 17.0%;
+    }
+
+    .tituloFormasAcessoHistoriaPage{
+        top: 80%;
+    }
+}
