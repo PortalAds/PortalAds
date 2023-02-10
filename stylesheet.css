@@ -261,11 +261,14 @@ body {
     left: 1%;
     padding-top: 3%;
 }
+td, tr{
+    border-bottom: solid 1px white;
+}
 .tabelaEstrutura{
     justify-content: center;
     margin: auto;
     
-    border: 3px solid white;
+    
     padding: 10px;
     line-height: 1.5;
     display: inline-block;
