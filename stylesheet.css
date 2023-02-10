@@ -229,3 +229,33 @@ body {
         top: 80%;
     }
 }
+.estruturaCurricularDiv{
+    width: 100vw;
+    height: 60vw;
+    margin: auto;
+    margin-left: 0%;
+    margin-top: 11.5%;
+    padding-left: 0%;
+    position: relative;
+    left: -8px;
+    /* text-align: center;
+    align-items: center; */
+    background-color: black;
+    color: white;
+}
+.estruturaCurricularPage{
+    width: 45%;
+    font-size: max(20px, 1.2vw);
+    justify-content: center;
+    text-align: justify;
+    position: relative;
+    left: 9%;
+    color: white;
+    background-color: black;
+}
+.tituloEstrutura{
+    font-size: max(30px, 1.5vw);
+    font-weight: 700;
+    position: relative;
+    left: 2%;
+}
