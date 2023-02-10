@@ -230,6 +230,17 @@ body {
     }
 }
 .estruturaCurricularDiv{
+
+    width: 45%;
+    font-size: max(20px, 1.2vw);
+    justify-content: center;
+    text-align: justify;
+    position: relative;
+    left: 9%;
+    color: white;
+    background-color: black;
+}
+.estruturaCurricularPage{
     width: 100vw;
     height: 60vw;
     margin: auto;
@@ -243,19 +254,20 @@ body {
     background-color: black;
     color: white;
 }
-.estruturaCurricularPage{
-    width: 45%;
-    font-size: max(20px, 1.2vw);
-    justify-content: center;
-    text-align: justify;
-    position: relative;
-    left: 9%;
-    color: white;
-    background-color: black;
-}
 .tituloEstrutura{
     font-size: max(30px, 1.5vw);
     font-weight: 700;
     position: relative;
-    left: 2%;
+    left: 1%;
+    padding-top: 3%;
+}
+.tabelaEstrutura{
+    justify-content: center;
+    margin: auto;
+    
+    border: 3px solid white;
+    padding: 10px;
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
 }
