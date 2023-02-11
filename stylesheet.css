@@ -242,15 +242,15 @@ body {
 }
 .estruturaCurricularPage{
     width: 100vw;
-    height: 60vw;
+    height: auto;
     margin: auto;
     margin-left: 0%;
     margin-top: 11.5%;
     padding-left: 0%;
     position: relative;
     left: -8px;
-    /* text-align: center;
-    align-items: center; */
+    text-align: center;
+    align-items: center;
     background-color: black;
     color: white;
 }
@@ -266,11 +266,23 @@ td, tr{
 }
 .tabelaEstrutura{
     justify-content: center;
-    margin: auto;
-    
-    
+    margin: auto;    
     padding: 10px;
     line-height: 1.5;
     display: inline-block;
     vertical-align: middle;
+}
+.sobreEstruturaCurricular{
+    margin-top: 15px;
+    margin-left: 10px;
+    
+}
+.linkPortalEstudante{
+    text-decoration: none;
+    color: white;
+}
+.linkPortalEstudante:hover{
+    text-decoration: underline;
+    background-size: 100% 3px;
+   
 }
