@@ -4,6 +4,36 @@ body {
     overflow-x: hidden;
 }
 
+.ProfessoresPage{
+    background-color: white;
+}
+
+.divParagrafoProfessor{
+    width: 35%;
+    position: relative;
+    top: 17%;
+    left: 2%;
+    margin: 0%;
+    /* border: 1px solid white; */
+    font-size: max(25px, 1.2vw);
+    justify-content: center;
+    text-align: justify;
+}
+
+.fotoProfessor{
+    float: right;
+    position: relative;
+    right: 20%;
+    top: 50%;
+}
+.texto {
+    color: black;
+}
+
+.textoTitulo {
+    color: black;
+}
+
 .divMenuSuperior{
     position: fixed;
     top: 0px;
