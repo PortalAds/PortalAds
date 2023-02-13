@@ -6,7 +6,7 @@ body {
 
 .ProfessoresPage{
     background-color: white;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding: 0%;
     padding-left: 7%;
 }
@@ -277,7 +277,6 @@ body {
     }
 }
 .estruturaCurricularDiv{
-
     width: 45%;
     font-size: max(20px, 1.2vw);
     justify-content: center;
@@ -286,6 +285,7 @@ body {
     left: 9%;
     color: white;
     background-color: black;
+    padding-bottom: 5%;
 }
 .estruturaCurricularPage{
     width: 100vw;
@@ -318,6 +318,8 @@ td, tr{
     line-height: 1.5;
     display: inline-block;
     vertical-align: middle;
+    position: relative;
+    top: 20%;
 }
 .sobreEstruturaCurricular{
     margin-top: 15px;
