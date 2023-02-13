@@ -4,6 +4,53 @@ body {
     overflow-x: hidden;
 }
 
+.ProfessoresPage{
+    background-color: white;
+    /* border: 1px solid black; */
+    padding: 0%;
+    padding-left: 7%;
+}
+
+.divParagrafoProfessor{
+    width: 40%;
+    position: relative;
+    top: 17%;
+    left: 2%;
+    margin: 0%;
+    /* border: 1px solid white; */
+    font-size: max(25px, 1.2vw);
+    justify-content: center;
+    text-align: justify;
+}
+
+.fotoProfessor{
+    width: 30%;
+    float: right;
+    position: relative;
+    top: 10px;
+    right: 0.5%;
+}
+.texto {
+    color: black;
+}
+
+.textoTitulo {
+    font-size: max(30px, 1.5vw);
+    font-weight: 700;
+    color: black;
+}
+
+.tituloPrincicalProfessores{
+    position: relative;
+    left: 2%;
+}
+
+.linkOutrosProfessores{
+    color:black;
+    position: relative;
+    left: 2%;
+}
+
 .divMenuSuperior{
     position: fixed;
     top: 0px;
@@ -230,7 +277,6 @@ body {
     }
 }
 .estruturaCurricularDiv{
-
     width: 45%;
     font-size: max(20px, 1.2vw);
     justify-content: center;
@@ -239,6 +285,7 @@ body {
     left: 9%;
     color: white;
     background-color: black;
+    padding-bottom: 5%;
 }
 .estruturaCurricularPage{
     width: 100vw;
@@ -271,6 +318,8 @@ td, tr{
     line-height: 1.5;
     display: inline-block;
     vertical-align: middle;
+    position: relative;
+    top: 20%;
 }
 .sobreEstruturaCurricular{
     margin-top: 15px;
