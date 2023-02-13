@@ -6,10 +6,13 @@ body {
 
 .ProfessoresPage{
     background-color: white;
+    border: 1px solid black;
+    padding: 0%;
+    padding-left: 7%;
 }
 
 .divParagrafoProfessor{
-    width: 35%;
+    width: 40%;
     position: relative;
     top: 17%;
     left: 2%;
@@ -21,17 +24,31 @@ body {
 }
 
 .fotoProfessor{
+    width: 30%;
     float: right;
     position: relative;
-    right: 20%;
-    top: 50%;
+    top: 10px;
+    right: 0.5%;
 }
 .texto {
     color: black;
 }
 
 .textoTitulo {
+    font-size: max(30px, 1.5vw);
+    font-weight: 700;
     color: black;
+}
+
+.tituloPrincicalProfessores{
+    position: relative;
+    left: 2%;
+}
+
+.linkOutrosProfessores{
+    color:black;
+    position: relative;
+    left: 2%;
 }
 
 .divMenuSuperior{
